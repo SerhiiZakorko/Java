@@ -17,7 +17,7 @@ public class Elevator {
         int floor = 0;
         int cycle = (N - M);
 
-        if (M > N) {
+        if (M >= N) {
             System.out.println("На таком лифте вы никуда не доедете");
         } else {
             int i = 0;
